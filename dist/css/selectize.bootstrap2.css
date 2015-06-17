@@ -108,9 +108,19 @@
 .selectize-control.plugin-remove_button .disabled [data-value] .remove {
   border-left-color: #e0e0e0;
 }
+.selectize-input {
+  min-width: 200px;
+  width: auto !important;
+}
+.selectize-control {
+  width: auto;
+}
+.selectize-dropdown {
+  max-width: 250px;
+}
 nav {
   padding: 0px 0;
-  width: 200px;
+  width: 180px;
   background-color: white;
   position: absolute;
 }
@@ -136,10 +146,10 @@ nav ul li {
 nav li ul {
   background-color: #fff;
   position: absolute;
-  left: 200px;
+  left: 180px;
   top: 0px;
   /* make this equal to the line-height of the links (specified below) */
-  width: 200px;
+  width: 180px;
 }
 nav li ul a:hover {
   background-color: #08c;

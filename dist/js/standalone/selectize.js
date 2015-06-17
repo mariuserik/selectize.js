@@ -3741,7 +3741,7 @@
 				if (options.append) {
 					var render_item = self.settings.render.optgroup_header;
 					self.settings.render.optgroup_header = function(data) {
-						return '<div class="optgroup-header"><nav><ul><li class="' + options.className + '"><a href="#">' + escape(data.label) + '</a><ul class="sub-menu"><li class="dropdown" style="width:200px;"></li></ul></li></ul></nav></div>'
+						return '<div class="optgroup-header"><nav><ul><li class="' + options.className + '"><a href="#">' + escape(data.label) + '</a><ul class="sub-menu"><li class="dropdown" style="width:180px;"></li></ul></li></ul></nav></div>'
 					};
 				}
 	
