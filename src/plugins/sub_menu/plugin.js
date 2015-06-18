@@ -93,7 +93,7 @@ Selectize.define('sub_menu', function(options) {
      * Mouse hover events to show/hide submenus
      *
     */
-      self.$dropdown.on('hover', '.' + 'optgroup-header', function(e) {
+      self.$dropdown.on('mouseenter', '.' + 'optgroup-header', function(e) {
         $(this).children('nav').children('ul').children('.dropdown-hover').children('.sub-menu').show();
       })
       self.$dropdown.on('mouseleave', '.' + 'optgroup-header', function(e) {
