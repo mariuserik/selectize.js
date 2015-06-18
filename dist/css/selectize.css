@@ -119,6 +119,9 @@
 .selectize-dropdown {
   max-width: 250px;
 }
+.selectize-dropdown-content {
+  max-height: auto !important;
+}
 nav {
   padding: 0px 0;
   width: 180px;
@@ -375,7 +378,6 @@ ul.sub-menu:hover {
 .selectize-dropdown-content {
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: 200px;
 }
 .selectize-control.single .selectize-input,
 .selectize-control.single .selectize-input input {
